@@ -1,0 +1,6 @@
+[submodule "share/catkin_ws/fmauch_universal_robot"]
+	path = share/catkin_ws/fmauch_universal_robot
+	url = https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
+[submodule "share/catkin_ws/Universal_Robots_ROS_Driver"]
+	path = share/catkin_ws/Universal_Robots_ROS_Driver
+	url = https://github.com/hoo223/Universal_Robots_ROS_Driver.git
