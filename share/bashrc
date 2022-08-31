@@ -113,12 +113,7 @@ alias tree='rosrun rqt_tf_tree rqt_tf_tree'
 alias con_list='rosrun controller_manager controller_manager list'
 
 # UR10
-alias ur10_tcp='roslaunch ur_robot_driver ur10_bringup.launch robot_ip:=192.168.0.2'
-
-# Gripper
-alias gripper='roslaunch robotiq_2f_gripper_control robotiq_action_server_client.launch'
-alias gripper_server='roslaunch robotiq_2f_gripper_control robotiq_action_server.launch'
-alias gripper_client='rosrun robotiq_2f_gripper_control robotiq_2f_action_client_example.py'
+alias ur10_tcp='roslaunch ur_robot_driver ur10_bringup.launch robot_ip:=192.168.0.2 __ns:=ur10'
 
 source /opt/ros/melodic/setup.bash
 source ~/share/catkin_ws/devel/setup.bash
