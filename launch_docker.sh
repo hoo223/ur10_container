@@ -3,6 +3,6 @@ sudo docker run --gpus all -it --net=host --privileged \
     -e DISPLAY=unix$DISPLAY \
     -v `pwd`/share:/root/share \
     -w /root/share \
-    --name ur10_2 \
+    --name ur10 \
     lhs223/hsa_project:ur10 \
     bash
